@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/Dummy.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/web/WEB-INF/web.xml</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/test/org/fjala/examples/taskmaster/managers/TaskManagerTest.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/test/org/fjala/examples/taskmaster/managers/ProjectManagerTest.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/web/resources/Template/AddProjectMembers.xhtml</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/model/Project.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/web/resources/index.html</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/web/resources/addUserInProyect.xhtml</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/web/resources/addUserInProject.xhtml</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/managers/UserAccountManager.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/model/UserAccount.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/managers/ProjectManager.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/managers/TaskManager.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/test/org/fjala/examples/taskmaster/managers/UserAccountManagerTest.java</file>
+            <file>file:/D:/jalaWork/taskmaster/taskmaster/src/java/org/fjala/examples/taskmaster/model/Task.java</file>
+        </group>
+    </open-files>
+</project-private>
