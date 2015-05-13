@@ -21,7 +21,7 @@ import javax.persistence.NamedQuery;
  */
 @Entity
 @NamedQueries(value = {
-    @NamedQuery(name = "useracount.all", query = "SELECT t FROM UserAcount t")
+    @NamedQuery(name = "User.all", query = "SELECT t FROM User t")
 })
 public class UserAccount implements Serializable {
 
@@ -108,5 +108,4 @@ public class UserAccount implements Serializable {
         }
         return Objects.equals(this.email, other.email);
     }
-
 }

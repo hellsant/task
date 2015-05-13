@@ -7,6 +7,7 @@ package org.fjala.examples.taskmaster.managers;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.ejb.Stateless;
 import org.fjala.examples.taskmaster.model.Project;
 import org.fjala.examples.taskmaster.model.UserAccount;
 
@@ -14,6 +15,7 @@ import org.fjala.examples.taskmaster.model.UserAccount;
  *
  * @author erika
  */
+@Stateless
 public class ProjectManager {
     
     private UserAccountManager userManager;

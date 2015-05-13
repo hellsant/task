@@ -6,6 +6,7 @@
 package org.fjala.examples.taskmaster.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import javax.persistence.Entity;
@@ -30,7 +31,10 @@ public class Project implements Serializable {
 
     @Id
     private Integer id;
-
+    
+    public Project() {
+        this.members = new ArrayList<>();
+    }
     /**
      * Get the value of members
      *

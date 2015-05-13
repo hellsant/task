@@ -19,7 +19,6 @@ public class UserAccountManager {
     public UserAccount registerAccount(UserAccount account) {
         return account;
     }
-    
     public List<UserAccount> getAllUsers(){
         return null;
     }

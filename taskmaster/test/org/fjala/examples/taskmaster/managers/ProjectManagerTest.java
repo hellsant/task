@@ -20,7 +20,7 @@ import org.mockito.MockitoAnnotations;
 
 /**
  *
- * @author erika
+ * @author douglas
  */
 public class ProjectManagerTest {
 
