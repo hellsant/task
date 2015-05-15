@@ -79,13 +79,17 @@ public class ProjectService implements Serializable {
     }
 
     public void addMemberToProject(ActionEvent event) {
-        currentProject.getMembers().add(memberToAdd);
+       if(!currentProject.getMembers().contains(memberToAdd)){
+            currentProject.getMembers().add(memberToAdd);
+        }
     }
 
     public List<UserAccount> getAvailableMembers(String token) {
+        String nameTemplate = "%s %s";
         List<UserAccount> acounts = new ArrayList<>();
         for (UserAccount availableMember : availableMembers) {
-            if (availableMember.getName().toLowerCase().contains(token)) {
+            String userName = String.format(nameTemplate, availableMember.getName(), availableMember.getLastName());
+            if (userName.toLowerCase().contains(token.toLowerCase())) {
                 acounts.add(availableMember);
             }
         }
